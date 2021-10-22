@@ -771,3 +771,5 @@ product/etc/permissions/privapp-permissions-oem-product.xml
 
 
 system_ext/etc/permissions/com.oneplus.camera.xml
+
+#-vendor/lib/modules/qca_cld3_qca6390.ko:product/vendor_overlay/30/lib/modules/qca_cld3_qca6390.ko|d9e298d876073473dced9aa17095e3a1f8883b1f
