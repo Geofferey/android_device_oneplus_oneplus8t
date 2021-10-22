@@ -34,5 +34,13 @@ $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)
 
 
 include $(CLEAR_VARS)
+LOCAL_MODULE       := fake-wlan_mac.bin
+LOCAL_MODULE_TAGS  := optional
+$(shell mkdir -p $(TARGET_OUT_PRODUCT)/vendor_overlay/30/firmware/wlan/qca_cld)
+$(shell mkdir -p $(TARGET_OUT_ETC)/firmware/wlan/qca_cld)
+$(shell ln -sf /mnt/vendor/persist/qca6390/wlan_mac.bin $(TARGET_OUT_PRODUCT)/vendor_overlay/30/firmware/wlan/qca_cld/wlan_mac.bin)
+$(shell ln -sf /mnt/vendor/persist/qca6390/wlan_mac.bin $(TARGET_OUT_ETC)/firmware/wlan/qca_cld/wlan_mac.bin)
+
+include $(CLEAR_VARS)
 
 endif
