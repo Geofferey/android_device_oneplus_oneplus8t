@@ -66,7 +66,7 @@ endif
 include device/oneplus/oneplus8pro/BoardConfig.mk
 
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
-PRODUCT_SOONG_NAMESPACES += vendor/oneplus/oneplus8t
+PRODUCT_SOONG_NAMESPACES += vendor/oneplus/oneplus8t vendor/omnihax0r
 
 TARGET_RECOVERY_UI_SCREEN_WIDTH := 1080
 TARGET_RECOVERY_UI_MARGIN_WIDTH := 30

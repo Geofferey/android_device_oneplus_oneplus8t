@@ -149,3 +149,6 @@ $(call inherit-product, \
 
 # Enable extendrom
 $(call inherit-product-if-exists, vendor/extendrom/config/common.mk)
+
+# OmniHax0r additions
+$(call inherit-product-if-exists, vendor/omnihax0r/public.mk)
