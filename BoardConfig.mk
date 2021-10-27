@@ -20,6 +20,11 @@
 #
 DEVICE_PATH := device/oneplus/oneplus8t
 
+# Must set before build or no Magisk
+ifeq ($(BOARD_MAGISK_INIT),true)
+BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
+endif
+
 BOARD_PREBUILT_VENDORIMAGE := vendor/image/oneplus/oneplus8t/vendor.img
 BOARD_PREBUILT_ODMIMAGE := vendor/image/oneplus/oneplus8t/odm.img
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth

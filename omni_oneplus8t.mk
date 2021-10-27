@@ -147,3 +147,5 @@ $(call inherit-product, vendor/oneplus/oneplus8t/oneplus8t-vendor.mk)
 $(call inherit-product, \
     $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
+# Enable extendrom
+$(call inherit-product-if-exists, vendor/extendrom/config/common.mk)
