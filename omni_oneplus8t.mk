@@ -19,6 +19,8 @@
 # product configuration (apps).
 #
 
+GAPPS_VARIANT := pico
+
 VENDOR_EXCEPTION_PATHS := oneplus \
     omni
 
@@ -152,3 +154,6 @@ $(call inherit-product-if-exists, vendor/extendrom/config/common.mk)
 
 # OmniHax0r additions
 $(call inherit-product-if-exists, vendor/omnihax0r/public.mk)
+
+# OpenGApps
+$(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
