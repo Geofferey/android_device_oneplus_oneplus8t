@@ -27,6 +27,7 @@ endif
 
 BOARD_PREBUILT_VENDORIMAGE := vendor/image/oneplus/oneplus8t/vendor.img
 BOARD_PREBUILT_ODMIMAGE := vendor/image/oneplus/oneplus8t/odm.img
+BOARD_PREBUILT_RECOVERYIMAGE := vendor/image/oneplus/oneplus8t/recovery.img
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
