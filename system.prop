@@ -250,7 +250,7 @@ audio.sys.offload.pstimeout.secs=3
 #HWC
 persist.vendor.color.matrix=2
 
-fakers.boot.verifiedbootstate=yellow
+fakers.boot.verifiedbootstate=orange
 persist.traced.enable=0
 
 
