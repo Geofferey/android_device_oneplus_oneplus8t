@@ -1,5 +1,6 @@
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+product/etc/permissions/privapp-permissions-google-product.xml|4b2475e0c223fec7c4d81d85b08314324c430953
 #-product/app/PowerOffAlarm/PowerOffAlarm.apk
 
 #system_ext/lib64/android.hidl.base@1.0.so
