@@ -72,3 +72,5 @@ PRODUCT_SOONG_NAMESPACES += vendor/oneplus/oneplus8t vendor/omnihax0r
 TARGET_RECOVERY_UI_SCREEN_WIDTH := 1080
 TARGET_RECOVERY_UI_MARGIN_WIDTH := 30
 TARGET_RECOVERY_UI_FONT := device/oneplus/oneplus8t/recovery/font.png
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
